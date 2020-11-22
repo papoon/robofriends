@@ -139,3 +139,7 @@ export function unregister() {
       });
   }
 }
+
+export function isLocal() {
+  return isLocalhost;
+}
